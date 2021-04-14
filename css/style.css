@@ -1,0 +1,158 @@
+body{
+  background-color:  #ccffeb;
+  
+}
+.clockz{
+
+}
+#stop{
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.phone1 {
+        width: 30%;
+        height: 695px;
+        position: absolute;
+        z-index: 2;
+        background: url(../assets/frame-animation/pictures/color_split_back.png) no-repeat;
+      }
+.phone2 {
+        width: 30%;
+        height: 696px;
+        position: absolute;
+        z-index: 1;
+        background: url(../assets/frame-animation/pictures/color_split_front.png) no-repeat;
+      }
+.phone3 {
+        width: 30%;
+        height: 696px;
+        position: absolute;
+        background: url(../assets/frame-animation/pictures/color_split_side.png) no-repeat;
+      }
+.phone4 {
+        width: 30%;
+        height: 667px;
+        left: -349px;
+        top: -667px;
+        position: absolute;
+        background: url(../assets/frame-animation/pictures/capable_pink.png) no-repeat;
+      }
+
+
+/*img hover*/
+.img-hover{
+  margin-top: 90%;
+}
+
+
+/*box hover*/
+
+.main-content {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    height: 44px;
+    margin: 5px 20px;
+    padding: 0 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e96db;
+    color: #f0f0f0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button:hover {
+    background-color: #62b0e4;
+}
+
+.button.ripples-dark:hover {
+    background-color: #1e74ae;
+}
+.a-tag{
+    text-decoration: none;
+}
+.a-tag:hover{
+  text-decoration: none;
+}
+.square {
+    width: 300px;
+    height: 400px;
+    margin: 10px 20px;
+    background-image: url(../assets/material-effect/photo/3.jpg);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*scroll*/
+
+/* Quetions */
+
+dl.questions {
+    background: #16A085;
+    color: #000;
+}
+
+dl.questions dt {
+    background: #1ABC9C url('../assets/faq-description/plus.svg') right center no-repeat;
+    background-size: 22px;
+    background-origin: content-box;
+    cursor: pointer;
+    padding: 15px;
+    border-bottom: 1px solid #16A085;
+}
+
+dl.questions dd {
+    padding: 15px;
+    background: #16A085;
+}
+
+dl.questions .expanded_img {
+    background: #1ABC9C url('../assets/faq-description/minus.svg') right center no-repeat;
+    background-size: 15px;
+    background-origin: content-box;
+    cursor: pointer;
+}
+
+/*scroll img*/
+.example {
+    margin: 0 auto 75px auto;
+    width: 400px;
+    padding: 40px;
+    background: #000; 
+    border-radius: 10px; 
+}
+.example > div { 
+    height: 400px;
+}
+.example img {
+    width: 100%;
+    height: auto; 
+}
+
+.scrollimage-up { position: absolute; z-index: 555; top: 0; left: 0; right: 0; bottom: 50%; transition: all .2s; background: linear-gradient(0deg, rgba(25,30,34,0) 0%, rgba(25,30,34,0.4) 100%); opacity: 0; }
+.scrollimage-up:hover { opacity: 1; }
+.scrollimage-down { position: absolute; z-index: 555; top: 50%; left: 0; right: 0; bottom: 0; transition: all .2s; background: linear-gradient(0deg, rgba(25,30,34,.4) 0%, rgba(25,30,34,0) 100%); opacity: 0; }
+.scrollimage-down:hover { opacity: 1; }
